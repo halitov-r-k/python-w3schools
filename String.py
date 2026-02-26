@@ -38,3 +38,7 @@ print(str5.replace("Ап", "Оп"))
 #Разбивка строки в список string.split(",")
 str5 = " Слово1, Слово2, Слово3, Слово4."
 print(str5.split(","))
+#Конкатенция String1+String2
+str6 = "Строка1"
+str7 = "Строка2"
+print(str6 + str7)
