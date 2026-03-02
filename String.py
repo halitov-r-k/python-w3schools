@@ -42,3 +42,10 @@ print(str5.split(","))
 str6 = "Строка1"
 str7 = "Строка2"
 print(str6 + str7)
+#Format string f"String{var}"
+word = "Вставленное слово"
+num = 59
+SringF = f"Строка со вставкой {word} число {num:.2f}."
+print(SringF)
+#экранирующие символы: \', \\, \n, \r, \t, \b, \f, \000, \xhh
+#методы
