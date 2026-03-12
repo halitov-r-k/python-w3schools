@@ -38,3 +38,12 @@ print("Измененный list1:", list1)
 # Вставка элемента
 list1.insert(2, "вставка")
 print("Вставка в list1:", list1)
+#Добавление items в конец списка
+list1.append("Добавленный")
+print("Добавление в конец append() list1:", list1)
+#Вставка по индексу
+list1.insert(2, "Вставленный по индексу")
+print("Вставка по индексу 2 list1:", list1)
+#Вставка другого объекта iterable: List, Tuples, Set, Dictionaries
+list1.extend(list2)
+print("расширенный list1:", list1)
