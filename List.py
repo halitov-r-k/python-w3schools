@@ -47,3 +47,21 @@ print("Вставка по индексу 2 list1:", list1)
 #Вставка другого объекта iterable: List, Tuples, Set, Dictionaries
 list1.extend(list2)
 print("расширенный list1:", list1)
+# Удалить элемент первый встретившийся в List
+list1.remove(3)
+print("Удаление элемента из  list1:", list1)
+# Удаление элемента по индексу.
+list1.pop(2)
+print("удаление элемента по индексу 2 из list1:", list1)
+# Если индекс не указать удаляется последний элемент
+list1.pop()
+print("Удаление последнего элемента из  list1:", list1)
+# Удаление по индексу del()
+del list1[0]
+print("удаление del по индексу 0 из list1:", list1)
+# удаление списка
+#del list2
+#print(list2)
+#  очистка List
+list3.clear()
+print("очистка list3:", list3)
