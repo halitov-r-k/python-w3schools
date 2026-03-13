@@ -65,3 +65,12 @@ print("удаление del по индексу 0 из list1:", list1)
 #  очистка List
 list3.clear()
 print("очистка list3:", list3)
+#Loop
+#Перебор элементов списка
+print("Перебор элементов list1:")
+for item in list1:
+    print(item)
+# Перебор items List по индексу
+print("Перебор элементов list1 по индексу:")
+for index in range(len(list1)):
+    print(list1[index])
