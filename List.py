@@ -67,10 +67,21 @@ list3.clear()
 print("очистка list3:", list3)
 #Loop
 #Перебор элементов списка
+'''
 print("Перебор элементов list1:")
 for item in list1:
-    print(item)
+    print(item)'''
 # Перебор items List по индексу
+'''
 print("Перебор элементов list1 по индексу:")
 for index in range(len(list1)):
+    print(list1[index])'''
+# Перебор items While
+print("Перебор элементов list1 по индексу, While:")
+'''index = 0
+while index < len(list1):
     print(list1[index])
+    index += 1'''
+#Перебор списка сокращенный
+print("Перебор List сокращенный")
+[print(item) for item in list1]
