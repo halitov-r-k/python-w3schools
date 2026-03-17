@@ -20,17 +20,17 @@ Tuple is a collection which is ordered and unchangeable. Allows duplicate member
 Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 Dictionary is a collection which is ordered** and changeable. No duplicate members.'''
 # при отрицательной индексации отсчет начинается с конца
-print("индекс отрицательный -1 в list1", list1[-1])
+'''print("индекс отрицательный -1 в list1", list1[-1])'''
 # Диапазон индексов начинается с первого значения включаемого до последнего не включаемого
-print("Диапазон индексов list1:", list1[1:3])
+'''print("Диапазон индексов list1:", list1[1:3])'''
 # Если первое значение не указать, то начнется с начала
-print("Диапазон list1 без указания начального элемента:", list1[:3])
+'''print("Диапазон list1 без указания начального элемента:", list1[:3])'''
 # Если не указать последний элемент, то кончиться последним
-print("Диапазон list1 без указания последнего значения", list1[1:])
+'''print("Диапазон list1 без указания последнего значения", list1[1:])'''
 # При указании отрицательных индексов
-print("Вывод list1 с отрицательными индексами в диапазоне:", list1[-4:-1])
+'''print("Вывод list1 с отрицательными индексами в диапазоне:", list1[-4:-1])'''
 #Проверка существования элемента в List
-print("Проверка существования 3 в list1:", 3 in list1)
+'''print("Проверка существования 3 в list1:", 3 in list1)'''
 #Изменение элемента
 list1[2] = "изменение"
 print("Измененный list1:", list1)
@@ -48,23 +48,23 @@ print("Вставка по индексу 2 list1:", list1)
 list1.extend(list2)
 print("расширенный list1:", list1)
 # Удалить элемент первый встретившийся в List
-list1.remove(3)
-print("Удаление элемента из  list1:", list1)
+'''list1.remove(3)
+print("Удаление элемента из  list1:", list1)'''
 # Удаление элемента по индексу.
-list1.pop(2)
+'''list1.pop(2)'''
 print("удаление элемента по индексу 2 из list1:", list1)
 # Если индекс не указать удаляется последний элемент
-list1.pop()
-print("Удаление последнего элемента из  list1:", list1)
+'''list1.pop()
+print("Удаление последнего элемента из  list1:", list1)'''
 # Удаление по индексу del()
-del list1[0]
-print("удаление del по индексу 0 из list1:", list1)
+'''del list1[0]
+print("удаление del по индексу 0 из list1:", list1)'''
 # удаление списка
 #del list2
 #print(list2)
 #  очистка List
-list3.clear()
-print("очистка list3:", list3)
+'''list3.clear()
+print("очистка list3:", list3)'''
 #Loop
 #Перебор элементов списка
 '''
@@ -77,11 +77,18 @@ print("Перебор элементов list1 по индексу:")
 for index in range(len(list1)):
     print(list1[index])'''
 # Перебор items While
-print("Перебор элементов list1 по индексу, While:")
-'''index = 0
+'''print("Перебор элементов list1 по индексу, While:")
+index = 0
 while index < len(list1):
     print(list1[index])
     index += 1'''
 #Перебор списка сокращенный
+'''
 print("Перебор List сокращенный")
-[print(item) for item in list1]
+[print(item) for item in list1]'''
+#сортировка
+print("Сортировка")
+list4 = [100, 27, 23, 16,78, 45,32]
+print (list4)
+list4.sort()
+print(list4)
