@@ -87,14 +87,21 @@ while index < len(list1):
 print("Перебор List сокращенный")
 [print(item) for item in list1]'''
 #сортировка
-'''print("Сортировка")
+'''print("Сортировка")'''
 list4 = [100, 27, 23, 16,78, 45,32]
-print (list4)
+'''print (list4)
 list4.sort()
 print(list4)'''
 # Сортировка по убыванию
-'''print("Сортировка по убыванию")
+print("Сортировка по убыванию")
 list4.reverse()
-print(list4)'''
+print(list4)
  # сортировка с использованием функции list.sort(key = str.lower)
  # сортировка обратный порядок list.reverse()
+ # Копирование List
+list5 = list1.copy()
+print('list5:', list5)
+list6 = list(list1)
+print("list6:", list6)
+list7 = list1[:]
+print("list7:", list7)
