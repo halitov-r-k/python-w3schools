@@ -21,3 +21,21 @@ Tuples2 = tuple(("apple", "banana", "cherry"))
 #print("Tuples1[-3:-1]", Tuples1[-3:-1])
 #Проверка присутствия a item in a tuple
 #print("apple is present in the Tuples1:", "apple" in Tuples1)
+#Для изменения Tuple его преобразовывают в List, изменяют Item, List преобразовывают в Tuple
+'''
+print("Tuples1:", Tuples1)
+List1 = list(Tuples1)
+print("List1:", List1)
+List1[1] = "kiwi"
+print("List1 modified", List1)
+Tuples1 = tuple(List1)
+print("Tuples1 modofied:", Tuples1)'''
+#Добавление кортежа 
+'''
+Tuples1 += Tuples2
+print("Tuples1 extended:", Tuples1)'''
+#Удаление tuples
+del Tuples1
+print(Tuples2)
+del Tuples2
+print(Tuples2)
