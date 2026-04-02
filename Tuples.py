@@ -35,7 +35,12 @@ print("Tuples1 modofied:", Tuples1)'''
 Tuples1 += Tuples2
 print("Tuples1 extended:", Tuples1)'''
 #Удаление tuples
-del Tuples1
+'''del Tuples1
 print(Tuples2)
 del Tuples2
-print(Tuples2)
+print(Tuples2)'''
+#разборка tuples
+'''(i1, i2, i3) = Tuples1
+print("i1:", i1)
+print("i2:", i2)
+print("i3:", i3)'''
