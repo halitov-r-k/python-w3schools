@@ -48,3 +48,15 @@ print("i3:", i3)'''
 '''(i1, *l1) = Tuples1
 print("i1:", i1)
 print("list:", l1)'''
+#for
+'''
+for item in Tuples1:
+    print("Tuple1 item:", item)
+for index in range(len(Tuples1)):
+    print("Tuples1 item", index, ":", Tuples1[index])'''
+#while
+'''
+index = 0
+while index < len(Tuples1):
+    print("Tuples1 item", index, ":", Tuples1[index])
+    index += 1'''
