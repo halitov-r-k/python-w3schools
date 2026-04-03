@@ -6,7 +6,7 @@ TuplesOneItem = ("apple",)
 #print("TuplesOneItem:", TuplesOneItem, "Type TuplesOneItem:", type(TuplesOneItem), "len(TuplesOneItem):", len(TuplesOneItem))
 # Tuple items type: string, number, boolean. Один  tuple содержит разные типы items.
 # Tuple Constructor
-Tuples2 = tuple(("apple", "banana", "cherry"))
+Tuples2 = tuple(("apple2", "banana2", "cherry2"))
 #print("Tuples2:", Tuples2)
 #Access tuple items индексация с конца "-1" - последний элемент
 #print("Tuples1[1]:", Tuples1[1])
@@ -60,3 +60,6 @@ index = 0
 while index < len(Tuples1):
     print("Tuples1 item", index, ":", Tuples1[index])
     index += 1'''
+#Tuples можно складывать, умножать на число
+'''print(" Tuples1 + Tuples2:", Tuples1 + Tuples2)
+print("Tuples1 * 2:", Tuples1 * 2)'''
