@@ -63,3 +63,5 @@ while index < len(Tuples1):
 #Tuples можно складывать, умножать на число
 '''print(" Tuples1 + Tuples2:", Tuples1 + Tuples2)
 print("Tuples1 * 2:", Tuples1 * 2)'''
+#подсчет количества items в tuple
+print("count apple in Tuples1:", Tuples1.count("apple"))
