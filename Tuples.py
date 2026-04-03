@@ -64,4 +64,6 @@ while index < len(Tuples1):
 '''print(" Tuples1 + Tuples2:", Tuples1 + Tuples2)
 print("Tuples1 * 2:", Tuples1 * 2)'''
 #подсчет количества items в tuple
-print("count apple in Tuples1:", Tuples1.count("apple"))
+'''print("count apple in Tuples1:", Tuples1.count("apple"))'''
+#Определение индекса item in tuple
+'''print("Index cherry in Tuples1:", Tuples1.index("cherry"))'''
