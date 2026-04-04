@@ -1,0 +1,18 @@
+#Sets
+print("Sets")
+# Sets are used to store multiple items in a single variable.
+# Set: коллекция не упорядочненная, не изменяемая, не индексированная, дубликаты не допускаются
+# Допускается удаление (remove), добавление (add) items in the set
+# Записывается в фигурных скобках {}
+# true & 1, false & 0 : считаются одинаковыми значениями
+# в одном set могут содержаться разные типы значений
+set1 = {"value1", "value2", "value3"}
+print("set1:", set1)
+# длина set
+print("Длина set1:", len(set1))
+# Проверка типа
+print("Type set1:", type(set1))
+print(type(set1) == set)
+# Constructor set((listVar))
+set2 = set(("value4", "value5", "value6"))
+print("set2:", set2)
