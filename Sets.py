@@ -7,7 +7,7 @@ print("Sets")
 # true & 1, false & 0 : считаются одинаковыми значениями
 # в одном set могут содержаться разные типы значений
 set1 = {"value1", "value2", "value3"}
-'''print("set1:", set1)'''
+print("set1:", set1)
 # длина set
 '''print("Длина set1:", len(set1))'''
 # Проверка типа
@@ -15,7 +15,7 @@ set1 = {"value1", "value2", "value3"}
 print(type(set1) == set)'''
 # Constructor set((listVar))
 set2 = set(("value4", "value5", "value6"))
-# print("set2:", set2)
+print("set2:", set2)
 # доступ к items  по индексу, ключу - не возможен
 # Перебор в цикле for
 '''for item in set1:
@@ -27,10 +27,15 @@ print("value4 not in set1:", "value4" not in set1)'''
 # print("set2:", set2)
 #set2.add("value7")
 # print("set2:", set2)
-# добавление items из набора. Набором может быть list, tuple, dictonaries
-# print("set2:", set2)
-# set2.update(set1)
-# print("set2:", set2)
+# добавление items из набора. Набором может быть list, tuple, dictonaries дубликаты исключаются
+set3 = {"value8", "value9"}
+print("set3:", set3)
+''' set2.update(set1)'''
+list1 = ("value10", "value11")
+print ("list1", list1)
+'''print("union set1, set2, set3, list1:", set1.union(set2, set3, list1)) # объединяет коллекции все'''
+'''print("set1 | set2 | set3",  set1 | set2 |set3)# объединяет множества только'''
+
 # удаление items из set
 # print("set2:", set2)
 # set2.remove("value7") # если item не существует - будет сообщение об ошибке
