@@ -6,7 +6,7 @@ print("Sets")
 # Записывается в фигурных скобках {}
 # true & 1, false & 0 : считаются одинаковыми значениями
 # в одном set могут содержаться разные типы значений
-set1 = {"value1", "value2", "value3"}
+set1 = {"value1", "value2", "value3", "value4"}
 print("set1:", set1)
 # длина set
 '''print("Длина set1:", len(set1))'''
@@ -14,7 +14,7 @@ print("set1:", set1)
 '''print("Type set1:", type(set1))
 print(type(set1) == set)'''
 # Constructor set((listVar))
-set2 = set(("value4", "value5", "value6"))
+set2 = set(("value3","value4", "value5", "value6"))
 print("set2:", set2)
 # доступ к items  по индексу, ключу - не возможен
 # Перебор в цикле for
@@ -55,3 +55,17 @@ print("set2:", set2)'''
 print("удаление set2")
 del set2
 print("set2:", set2)''' 
+# Пересечение sets
+'''print("set1.intersection(set2)", set1.intersection(set2))# объединяет коллекции
+print("set1 & set2", set1 & set2)# Объединяет sets
+set4 = set1
+print("set4:", set4)
+set4.intersection_update(set2)# мзменяет исзодный set
+print("set4.intersection_update(set2):", set4)'''
+# Возвращает set1.items которых нет в set2
+'''print("set1.difference(set2):", set1.difference(set2))# collections
+print("set1 - set2:", set1 - set2)# sets
+set5 = set1
+print("set5:", set5)
+set5.difference_update(set2)
+print("set5.difference_update(set2):", set5)'''
