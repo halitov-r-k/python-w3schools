@@ -69,3 +69,11 @@ set5 = set1
 print("set5:", set5)
 set5.difference_update(set2)
 print("set5.difference_update(set2):", set5)'''
+# items отсутствующие в обоих sets (не пересекающиеся)
+'''set6 = set1.symmetric_difference(set2)
+print("set6 = set1.symmetric_difference(set2):", set6)
+set7 = set1 ^ set2
+print("set7 = set1^set2:", set7)
+set8 = set1
+set8.symmetric_difference_update(set2)
+print("set8 = set1.symmetric_difference_update(set2):", set8)# изменяет исходный набор'''
