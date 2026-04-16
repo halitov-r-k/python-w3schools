@@ -78,5 +78,8 @@ set8 = set1
 set8.symmetric_difference_update(set2)
 print("set8 = set1.symmetric_difference_update(set2):", set8)# изменяет исходный набор'''
 # fronzen set - set нельзя добавлять, удалять items
-'''frozenset1 = frozenset({"value11", "value12", "value13"})
-print("frozenset1:", frozenset1, "type(frozenset1):", type(frozenset1))'''
+frozenset1 = frozenset({"value11", "value12", "value13"})
+print("frozenset1:", frozenset1, "type(frozenset1):", type(frozenset1))
+#frozenset.methods
+frozenset2 = frozenset1.copy()
+print("frozenset2:", frozenset2)
