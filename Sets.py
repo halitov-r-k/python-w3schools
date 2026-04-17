@@ -77,7 +77,7 @@ print("set7 = set1^set2:", set7)
 set8 = set1
 set8.symmetric_difference_update(set2)
 print("set8 = set1.symmetric_difference_update(set2):", set8)# изменяет исходный набор'''
-# fronzen set - set нельзя добавлять, удалять items
+# frozenset - set нельзя добавлять, удалять items
 frozenset1 = frozenset({"value11", "value12", "value13"})
 print("frozenset1:", frozenset1, "type(frozenset1):", type(frozenset1))
 #frozenset.methods
@@ -87,3 +87,5 @@ frozenset3 = ({"value12", "value13", "value14"})
 print("frozenset3:", frozenset3)
 '''print("frozenset1.difference(frozenset2):", frozenset1.difference(frozenset3))
 print("frozenset1 - frozenset3:", frozenset1 - frozenset3)'''
+'''print("frozenset1.intersection(frozenset3):", frozenset1.intersection(frozenset3))
+print("frozenset1 & frozenset3:", frozenset1 & frozenset3)'''
