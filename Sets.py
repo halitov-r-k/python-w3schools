@@ -89,3 +89,8 @@ print("frozenset3:", frozenset3)
 print("frozenset1 - frozenset3:", frozenset1 - frozenset3)'''
 '''print("frozenset1.intersection(frozenset3):", frozenset1.intersection(frozenset3))
 print("frozenset1 & frozenset3:", frozenset1 & frozenset3)'''
+#isdisjoint() непересекаются
+print("fozenset1, frozenset3 не пересекаются:", frozenset1.isdisjoint(frozenset3))
+frozenset4 = ({"value15", "value16", "value17"})
+print("frosenset4:", frozenset4)
+print("fozenset1, frozenset4 не пересекаются:",frozenset1.isdisjoint(frozenset4))
