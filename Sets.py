@@ -104,3 +104,8 @@ print("frozenset1 < frozenset5:)", frozenset1 < frozenset5)'''
 print("frozenset5.issuperset(frozenset1:)", frozenset5.issuperset(frozenset1))
 print("frozenset1 => frozenset5:)", frozenset1 <= frozenset5)
 print("frozenset1 > frozenset5:)", frozenset1 < frozenset5)
+# symmetric_difference() не пересекающиеся items
+print("fozenset1.symmetric_difference(frozenset2):", frozenset1.symmetric_difference(frozenset2))
+print("fozenset3.symmetric_difference(frozenset4):", frozenset3.symmetric_difference(frozenset4))
+print("fozenset3 ^ frozenset4:", frozenset3 ^ frozenset4)
+#
