@@ -66,11 +66,13 @@ set4.intersection_update(set2)# мзменяет исзодный set
 print("set4.intersection_update(set2):", set4)'''
 # Возвращает set1.items которых нет в set2
 '''print("set1.difference(set2):", set1.difference(set2))# collections
-print("set1 - set2:", set1 - set2)# sets
+print("set1 - set2:", set1 - set2)'''# sets
 set5 = set1
 print("set5:", set5)
-set5.difference_update(set2)
+'''set5.difference_update(set2)
 print("set5.difference_update(set2):", set5)'''
+'''set5 -= set2
+print("set5 -= set2:", set5)'''
 # items отсутствующие в обоих sets (не пересекающиеся)
 '''set6 = set1.symmetric_difference(set2)
 print("set6 = set1.symmetric_difference(set2):", set6)
