@@ -17,6 +17,9 @@ print(type(set1) == set)'''
 set2 = set(("value3","value4", "value5", "value6"))
 print("set2:", set2)
 # доступ к items  по индексу, ключу - не возможен
+# copy
+'''set4 = set1.copy()
+print ("set4 = set1.copy():", set4)'''
 # Перебор в цикле for
 '''for item in set1:
     print("Item:", item)'''
@@ -24,9 +27,9 @@ print("set2:", set2)
 '''print("value1 in set1:", "value1" in set1)
 print("value4 not in set1:", "value4" not in set1)'''
 # Добавление item в set
-# print("set2:", set2)
-#set2.add("value7")
-# print("set2:", set2)
+''' print("set2:", set2)
+set2.add("value7")
+print("set2:", set2)'''
 # добавление items из набора. Набором может быть list, tuple, dictonaries дубликаты исключаются
 set3 = {"value8", "value9"}
 print("set3:", set3)
@@ -35,16 +38,15 @@ list1 = ("value10", "value11")
 print ("list1", list1)
 '''print("union set1, set2, set3, list1:", set1.union(set2, set3, list1)) # объединяет коллекции все'''
 '''print("set1 | set2 | set3",  set1 | set2 |set3)# объединяет множества только'''
-
 # удаление items из set
-# print("set2:", set2)
-# set2.remove("value7") # если item не существует - будет сообщение об ошибке
-# set2.discard("value7")# если item не существует - будет сообщение об ошибке не будет
-# print("set2:", set2)
+''' print("set2:", set2)'''
+'''set2.remove("value7")'''# если item не существует - будет сообщение об ошибке
+set2.discard("value7")# если item не существует - будет сообщение об ошибке не будет
+print("set2:", set2)
 # Удаление случайного item из set
-# print("set2:", set2)
-# print("удаленный item:", set2.pop())
-# print("set2:", set2)
+''' print("set2:", set2)
+print("удаленный item:", set2.pop())
+print("set2:", set2)'''
 # Очистка set
 '''' print("set2:", set2)
 print("Очистка set2")
@@ -101,9 +103,9 @@ print("fozenset5:", frozenset5)
 print("frozenset1 <= frozenset5:)", frozenset1 <= frozenset5)
 print("frozenset1 < frozenset5:)", frozenset1 < frozenset5)'''
 # issuperset()
-print("frozenset5.issuperset(frozenset1:)", frozenset5.issuperset(frozenset1))
+'''print("frozenset5.issuperset(frozenset1:)", frozenset5.issuperset(frozenset1))
 print("frozenset1 => frozenset5:)", frozenset1 <= frozenset5)
-print("frozenset1 > frozenset5:)", frozenset1 < frozenset5)
+print("frozenset1 > frozenset5:)", frozenset1 < frozenset5)'''
 # symmetric_difference() не пересекающиеся items
 '''print("fozenset1.symmetric_difference(frozenset2):", frozenset1.symmetric_difference(frozenset2))
 print("fozenset3.symmetric_difference(frozenset4):", frozenset3.symmetric_difference(frozenset4))
