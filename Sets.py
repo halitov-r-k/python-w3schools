@@ -59,16 +59,19 @@ del set2
 print("set2:", set2)''' 
 # Пересечение sets
 '''print("set1.intersection(set2)", set1.intersection(set2))# объединяет коллекции
-print("set1 & set2", set1 & set2)# Объединяет sets
+print("set1 & set2", set1 & set2)# Объединяет sets'''
 set4 = set1
 print("set4:", set4)
-set4.intersection_update(set2)# мзменяет исзодный set
+'''set4.intersection_update(set2)# изменяет исзодный set
 print("set4.intersection_update(set2):", set4)'''
 # Возвращает set1.items которых нет в set2
 '''print("set1.difference(set2):", set1.difference(set2))# collections
 print("set1 - set2:", set1 - set2)'''# sets
+print("set1 - set2:", set1 - set2)
 set5 = set1
 print("set5:", set5)
+'''set5 &= set1 & set2 & set3 & set4
+print("set5 &= set1 & set2 & set3 & set4:",  set5)'''
 '''set5.difference_update(set2)
 print("set5.difference_update(set2):", set5)'''
 '''set5 -= set2
